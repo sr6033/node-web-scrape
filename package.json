@@ -1,0 +1,16 @@
+{
+  "name": "node-web-scrape",
+  "version": "0.0.1",
+  "description": "Scrape the web.",
+  "main": "server.js",
+  "author": "sr6033",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sr6033/node-web-scrape"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  }
+}
