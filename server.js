@@ -5,8 +5,8 @@ var cheerio = require('cheerio');
 var app     = express();
 
 app.get('/scrape', function(req, res){
-  // Let's scrape Anchorman 2
-  url = 'http://www.imdb.com/title/tt0109830/';
+  // Let's scrape Fight Club
+  url = 'https://www.imdb.com/title/tt0137523/';
 
   request(url, function(error, response, html){
     if(!error){
